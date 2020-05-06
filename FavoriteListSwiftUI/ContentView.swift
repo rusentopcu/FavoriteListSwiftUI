@@ -10,9 +10,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        
+        NavigationView {
+        List {
+            
+            ForEach(myFavorites) { favorite in
+                Section(header: Text(favorite.title)) {
+                    ForEach(favorite.elements) { element in
+                        NavigationLink(destination: DetailsView(chosenSubCategory: element)) {
+                        Text(element.subcategory)
+                                
+                     }
+                  }
+               }
+            }
+         }.navigationBarTitle("Favorite Book")
+       }
     }
-}
+ }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

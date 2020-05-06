@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		544A02AA2462ADAD00A08426 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544A02A92462ADAD00A08426 /* DetailsView.swift */; };
+		548505102461AF480025E139 /* FavoriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5485050F2461AF480025E139 /* FavoriteModel.swift */; };
 		54BAB51E24571FBB00F3ACBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BAB51D24571FBB00F3ACBC /* AppDelegate.swift */; };
 		54BAB52024571FBB00F3ACBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BAB51F24571FBB00F3ACBC /* SceneDelegate.swift */; };
 		54BAB52224571FBB00F3ACBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BAB52124571FBB00F3ACBC /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		544A02A92462ADAD00A08426 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		5485050F2461AF480025E139 /* FavoriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteModel.swift; sourceTree = "<group>"; };
 		54BAB51A24571FBB00F3ACBC /* FavoriteListSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoriteListSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54BAB51D24571FBB00F3ACBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54BAB51F24571FBB00F3ACBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				54BAB51D24571FBB00F3ACBC /* AppDelegate.swift */,
 				54BAB51F24571FBB00F3ACBC /* SceneDelegate.swift */,
 				54BAB52124571FBB00F3ACBC /* ContentView.swift */,
+				5485050F2461AF480025E139 /* FavoriteModel.swift */,
+				544A02A92462ADAD00A08426 /* DetailsView.swift */,
 				54BAB52324571FBE00F3ACBC /* Assets.xcassets */,
 				54BAB52824571FBF00F3ACBC /* LaunchScreen.storyboard */,
 				54BAB52B24571FBF00F3ACBC /* Info.plist */,
@@ -147,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				54BAB51E24571FBB00F3ACBC /* AppDelegate.swift in Sources */,
+				544A02AA2462ADAD00A08426 /* DetailsView.swift in Sources */,
 				54BAB52024571FBB00F3ACBC /* SceneDelegate.swift in Sources */,
 				54BAB52224571FBB00F3ACBC /* ContentView.swift in Sources */,
+				548505102461AF480025E139 /* FavoriteModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
